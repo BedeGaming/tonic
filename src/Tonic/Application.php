@@ -172,6 +172,7 @@ class Application
                 }
             }
         }
+
         if ($matchedResource) {
             if (isset($matchedResource[0]['filename']) && is_readable($matchedResource[0]['filename'])) {
                 require_once($matchedResource[0]['filename']);
