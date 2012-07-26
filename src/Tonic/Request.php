@@ -10,7 +10,7 @@ class Request
     public $hostname;
     public $uri;
     public $method;
-    public $contentType = 'application/x-www-form-urlencoded';
+    public $contentType = 'application/json';
     public $data;
     public $accept = array();
     public $acceptLang = array();
